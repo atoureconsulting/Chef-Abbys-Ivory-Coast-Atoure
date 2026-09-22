@@ -15,7 +15,7 @@ AToure is delivering the experience and logistics for the **Côte d'Ivoire stop 
 
 - **Draft v0.1.** Every partner, person and venue named is a *target*. Nothing has been approached or confirmed yet.
 - Budget figures are **estimates before supplier quotes**, for a party of 6. The AToure fee (15%) is a placeholder.
-- One credential needs checking: the brief says "Forbes-recognised", but the public record confirms **TIME 100 Most Influential Creators (2025)**.
+- Credential: use **TIME100 Creators 2025** (it is pinned on her Instagram). I found no Forbes listing.
 
 ## Rebuild
 
