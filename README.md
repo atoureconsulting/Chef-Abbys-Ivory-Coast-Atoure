@@ -8,6 +8,7 @@ AToure is delivering the experience and logistics for the **Côte d'Ivoire stop 
 | [`02-proposition/experience-proposition.md`](02-proposition/experience-proposition.md) | **The Wednesday draft**: *"Who Feeds Côte d'Ivoire?"*, a 3-day programme with budget, sponsorship approach, timeline and open questions |
 | [`02-proposition/AToure-ChefAbbys-CotedIvoire-Proposition-DRAFT.pdf`](02-proposition/AToure-ChefAbbys-CotedIvoire-Proposition-DRAFT.pdf) | The same proposition as a branded 5-page PDF, ready to send to her management |
 | [`03-budget/ground-budget.xlsx`](03-budget/ground-budget.xlsx) | Live budget. Change the headcount, nights, exchange rate and fee % on *Assumptions*, and switch lines on or off (Y/N) on *Budget* |
+| [`04-collaborations/foundation-and-creators.md`](04-collaborations/foundation-and-creators.md) | Working notes: Olivia Yacé foundation masterclass, Jiaan Wu at the maquis night, ministry patronage |
 | `tools/` | Sources for rebuilding the files: `build_budget.py` regenerates the spreadsheet, and `proposition.html` is printed to the PDF (it needs the `atoure` brand-kit repo checked out alongside this one) |
 
 ## Status
