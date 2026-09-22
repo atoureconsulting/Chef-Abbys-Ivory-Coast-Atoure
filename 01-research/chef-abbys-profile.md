@@ -12,16 +12,21 @@
 | **Born** | 6 July 1999, Kumasi, Ghana (27) |
 | **Based** | Accra, Ghana |
 | **Positioning** | Calls herself an **"African Food Tourist"**. She cooks and documents food cultures from across the continent (for example *babenda* from Burkina Faso and *amiwo* from Benin), alongside Ghanaian staples such as waakye, kenkey, jollof and banku. |
-| **Platforms** | TikTok (main platform, ~2.5M followers per Wikipedia), YouTube (~100K+), Instagram, Snapchat (@chef.abbys). Active since 2022. |
+| **Platforms** | TikTok (main platform, ~2.5M followers per Wikipedia), **Instagram @chefabbys: 778K followers, 2,572 posts** (verified, profile checked 22 Sep 2026), YouTube (~100K+), Snapchat (@chef.abbys). Active since 2022. |
+| **Background** | A former engineer who left corporate work to cook full time. |
+| **Management** | **My Runway Group**, a creative agency and youth-empowerment organisation that conceived her Ghana Heritage Month tour. Partnerships go to **chefabbys@myrunwaygroup.com**. Her Instagram bio also links a Google Form for partnership requests. |
+| **Ventures** | Founder of **CASOF (Chef Abbys School of Food, @casof_gh)**, a culinary and food-tourism school that trains cooks, chefs and food content creators, and of **@thebigstreetfeast**. Community: "Abbys Gist Corner" (~4.9K members). |
+| **Instagram highlights** | West Africa Food Tour, Mexico, South Africa, France, "Reset Ret…" (retreat). Her pinned post is the **TIME100 Creators 2025** cover. |
 | **Format** | Short vertical video, mostly first person, filmed in markets and kitchens. The tone is warm and full of discovery, with a lot of "come with me". |
 
 ### Recognition
 
 - **TIME, 100 Most Influential Creators in the World (2025).** This is the headline credential.
 - She represented Ghana at TikTok's showcase at **Cannes Lions** (France).
+- **TikTok Awards 2025:** TikTok Sub-Saharan Award, and first runner-up for Food Creator of the Year.
 - **Pulse Influencer Awards 2025:** Most Innovative Influencer of the Year (Africa), Food Influencer of the Year (Pulse Ghana), and TikTok Creator of the Year.
 
-> ⚠️ **Check before external use:** the brief describes her as *"Forbes-recognised"*. I could not find her on a Forbes or Forbes Africa list (30 Under 30 etc.). The credential I could verify is **TIME 100 Creators**. Please confirm with her management which credentials they want in the proposition and in ministry letters.
+> ⚠️ **Credential:** the brief describes her as *"Forbes-recognised"*, but I found no Forbes or Forbes Africa listing. **TIME100 Creators 2025** is confirmed: it is the pinned post on her own Instagram. Use TIME in the proposition and in ministry letters.
 
 ### Philanthropy: *The Big Street Feast* ("Zero Hunger")
 
@@ -79,6 +84,7 @@ Each of these is timely in October 2026 and gives a "why now" beyond the food it
 | **Valérie Rollainth** (Paul Bocuse-trained), **Marc Handy** (Chefs & Gastronomie) | Female chef / new-generation chef | Alternates for the chef collab |
 | **Yasmine Fofana (@afrofoodie)** | Pioneer Ivorian food blogger and culinary entrepreneur | Creator collab, local amplification |
 | **Ebenezer**, **Prince Edja**, **François (@francs_komenan)** | Top Ivorian food/travel creators | Creator collab, cross-posting |
+| **CASOF (her own school)** | Her mission to train the next generation of African chefs and creators | Day 3 masterclass for young Ivorian cooks and creators |
 | **A'Salfo / Magic System** | Global Ivorian star, schools foundation, FEMUA | Celebrity moment + school visit |
 | **Didier Drogba** (Fondation Didier Drogba) | Global icon | Stretch celebrity; plays on the Ghana–CI rivalry |
 | **Ministry of Tourism & Leisure / Côte d'Ivoire Tourisme** | FCI, "Sublime Côte d'Ivoire" strategy | Courtesy call, co-branding, possible funding |
@@ -99,6 +105,12 @@ Each of these is timely in October 2026 and gives a "why now" beyond the food it
 ---
 
 ## Sources
+
+- Instagram profile @chefabbys (screenshot shared by Baba, 22 Sep 2026)
+- [chefabbys.com: CASOF](https://chefabbys.com/casof/)
+- [TikTok: CASOF announcement](https://www.tiktok.com/@chefabbys/video/7438298500992912695)
+- [My Runway Group](https://www.myrunwaygroup.com/)
+- [Glamour SA: Chef Abbys takes Ghana to the world](https://www.glamour.co.za/lifestyle/chef-abbys-takes-ghana-to-the-world-through-food-and-storytelling-8d0d5535-46da-484a-a389-23e5f34c4e8e)
 
 - [Wikipedia: Chef Abbys](https://en.wikipedia.org/wiki/Chef_Abbys)
 - [GhanaWeb: Chef Abbys on TIME's 100 Most Influential Creators](https://www.ghanaweb.com/GhanaHomePage/entertainment/Ghana-s-Chef-Abbys-featured-on-TIME-s-list-of-100-Most-Influential-Creators-in-the-world-1991074)

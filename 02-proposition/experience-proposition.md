@@ -1,7 +1,7 @@
 # Chef Abbys × Côte d'Ivoire: *Who Feeds Côte d'Ivoire?*
 
 **Experience proposition · DRAFT v0.1 for discussion**
-AToure Management & Consulting · for Chef Abbys' management · 23 September 2026
+AToure Management & Consulting · for **My Runway Group** (Chef Abbys' management) · 23 September 2026
 Programme dates: **Monday 19 – Wednesday 21 October 2026** (departure to Monrovia on Thursday 22 October)
 
 ---
@@ -54,6 +54,7 @@ Each day is **one episode** with its own story arc. Every day includes a free bl
 | Morning | **Musée des Civilisations de Côte d'Ivoire** (Plateau), private guided visit: food rituals, masks, the Akan–Ghana link | Cultural depth; shows the two countries' shared roots |
 | Late morning | **Courtesy call at the Ministry of Tourism & Leisure** (or the Culture / Women & Family ministries), linked to the Festival de la Cuisine Ivoirienne | Official endorsement; opens the door to co-funding |
 | Afternoon | ⭐ **"Ghana × Côte d'Ivoire: the Cook-Off."** Lagoon-view venue. **Chef Abbys + the FCI 2026 laureates + a celebrity guest** (targets: **A'Salfo of Magic System**, with **Didier Drogba** as the stretch ask) and **2–3 Ivorian food creators** (e.g. **@afrofoodie Yasmine Fofana**, Ebenezer, Prince Edja). Friendly rivalry: *attiéké vs gari*, *kedjenou vs light soup*, with the celebrity judging. | Headline social moment, reaching both countries' audiences and a celebrity's |
+| Late afternoon | *Upgrade:* **CASOF × Abidjan masterclass.** Chef Abbys teaches 20–30 young Ivorian cooks and food creators (from a hospitality school or the FCI amateur finalists) using her **Chef Abbys School of Food** format. | Takes her own school across the border; puts the youth angle on camera; a natural bilingual collab |
 | Evening | *Upgrade:* **sunset pinasse (boat) on the Ébrié lagoon**, farewell toast | Closing shot of the Abidjan skyline |
 
 **Thursday 22 Oct:** airport protocol, then **Air Côte d'Ivoire nonstop to Monrovia** (~1 h 30). The flight days still need confirming.
@@ -62,7 +63,7 @@ Each day is **one episode** with its own story arc. Every day includes a free bl
 
 | For Chef Abbys | For Côte d'Ivoire partners | For sponsors |
 |---|---|---|
-| 3 episodes that differ clearly from every other tour stop | International reach for the FCI and the tourism strategy, straight after the festival | Placement in the most *purpose-led* stop of the tour |
+| 3 episodes that differ clearly from every other tour stop, plus a first **CASOF** moment outside Ghana | International reach for the FCI and the tourism strategy, straight after the festival | Placement in the most *purpose-led* stop of the tour |
 | Tour goals met: food creators, iconic dishes, high-level meetings, global story | Women producers and Ivorian chefs shown to a TIME-100 creator's audience | Integrations built around the story (mobility, telco, hotel, airline), not added onto it |
 | Continuation of the Big Street Feast | A legacy moment (school meal, optional donation) | Assets from a local photographer and BTS team |
 
@@ -88,7 +89,7 @@ Each day is **one episode** with its own story arc. Every day includes a free bl
 - **Ministry of Tourism:** airport protocol, the museum visit and the FCI laureates
 - **Le Chocolatier Ivoirien and the venue:** co-branding in exchange for the workshop and cook-off space
 
-*The 15% AToure fee is a placeholder for Baba to confirm.*
+*The 15% AToure fee is a placeholder for Baba to confirm. The CASOF masterclass is an optional extra and is not yet costed; venue and snacks would run about 300,000 XOF.*
 
 ## 6. Sponsorship reality (from the call)
 
@@ -101,7 +102,7 @@ Each day is **one episode** with its own story arc. Every day includes a free bl
 
 | Date | Milestone |
 |---|---|
-| **Wed 23 Sep** | This draft to Chef Abbys' management |
+| **Wed 23 Sep** | This draft to My Runway Group (chefabbys@myrunwaygroup.com) |
 | Fri 25 Sep | Feedback on scope and budget; confirm headcount and passports |
 | **Wed 30 Sep** | Proposition approved → **collaboration agreement signed** |
 | 1–9 Oct | Outreach: ministry letters, sponsors, Le Chocolatier Ivoirien, Dabou group, school, chef, celebrity, creators |
