@@ -140,8 +140,10 @@ ws_s["A1"] = "Quick scenarios (static snapshot at build time — Budget sheet is
 ws_s["A1"].font = Font(bold=True)
 ct, cont, fee, fx = a_vals["Contingency"], a_vals["AToure curation & management fee"], a_vals["AToure curation & management fee"], a_vals["XOF per USD"]
 def full(x): return x * (1 + ct) * (1 + fee)
+logi = sum(u * qty_value(q, a_vals) for sec_, _, u, q, tier, _, _ in LINES if tier == "Core" and sec_ in ("Arrival & stay", "Ground transport", "Ground team"))
 rows = [("Scenario", "XOF", "USD"),
         ("Core programme", full(totals["Core"]), full(totals["Core"]) / fx),
+        ("Logistics only (stay, transport, ground team)", full(logi), full(logi) / fx),
         ("Core + all upgrades", full(totals["Core"] + totals["Optional"]), full(totals["Core"] + totals["Optional"]) / fx),
         ("Travel lines (if we must fund)", totals["Travel"], totals["Travel"] / fx)]
 for i, row in enumerate(rows):
