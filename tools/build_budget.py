@@ -12,61 +12,52 @@ OUT = Path(__file__).resolve().parent.parent / "03-budget" / "ground-budget.xlsx
 
 ASSUMPTIONS = [  # (label, value, note)
     ("Tour party (people)", 6, "Chef Abbys + manager + 2 camera + photo + assistant — CONFIRM"),
-    ("Hotel nights", 4, "Nights of 18–21 Oct (arrive the evening before); depart 22 Oct to Monrovia"),
+    ("Hotel nights", 3, "Nights of 19, 20, 21 Oct; depart 22 Oct to Monrovia"),
     ("Programme days", 3, "19–21 Oct"),
-    ("Vehicle days", 5, "18 Oct airport pick-up through 22 Oct airport drop"),
+    ("Vehicle days", 4, "19 Oct airport pick-up through 22 Oct airport drop"),
     ("XOF per USD", 565, "Check on the day"),
     ("XOF per EUR", 655.957, "Fixed peg"),
     ("Contingency", 0.10, "On ground costs"),
     ("AToure curation & management fee", 0.15, "PLACEHOLDER — Baba to set"),
 ]
-# Named cells: B3.. in order
 A = {k: f"Assumptions!$B${i+3}" for i, (k, _, _) in enumerate(ASSUMPTIONS)}
 PAX, NIGHTS, DAYS, VDAYS = A["Tour party (people)"], A["Hotel nights"], A["Programme days"], A["Vehicle days"]
 
-# v0.2 — merged programme (team "Parcours" spine + Olivia Yacé goûter + Jiaan Wu maquis + ministries)
-# (section, item, unit cost XOF, qty (number or formula string), tier, funding route, note)
+# v0.3 — deck itinerary: goûter + Allocodrome (Day 1), Zeinab speed duel + 1,000-plate relay (Day 2),
+# cocoa village + Axel's lab + Maison Mandjou + closing dinner (Day 3)
 LINES = [
-    ("Arrival & stay", "Airport protocol welcome + fast-track (arrival & departure)", 200_000, 2, "Core", "In-kind: ministry protocol", ""),
-    ("Arrival & stay", "L'Avenue Hôtel (or equivalent), single rooms", 150_000, f"={PAX}*{NIGHTS}", "Core", "In-kind: hotel partner", "Rate to quote"),
+    ("Arrival & stay", "VIP airport welcome + fast-track (arrival & departure)", 200_000, 2, "Core", "In-kind: Ministry of Tourism protocol", ""),
+    ("Arrival & stay", "Hotel 4–5★, single rooms", 150_000, f"={PAX}*{NIGHTS}", "Core", "In-kind: hotel partner", "Rate to quote"),
     ("Arrival & stay", "Per diems — meals outside programme", 25_000, f"={PAX}*{NIGHTS}", "Core", "Paid", ""),
-    ("Arrival & stay", "Local SIM + data", 15_000, f"={PAX}", "Core", "In-kind: telco", "Orange / MTN / Moov"),
+    ("Arrival & stay", "Local SIM + data", 15_000, f"={PAX}", "Core", "In-kind: telco", ""),
     ("Ground transport", "Talent SUV with driver, fuel incl.", 100_000, f"={VDAYS}", "Core", "In-kind: mobility partner", ""),
     ("Ground transport", "Crew minibus with driver, fuel incl.", 110_000, f"={VDAYS}", "Core", "In-kind: mobility partner", ""),
-    ("Ground transport", "Fuel & tolls supplement — Grand-Bassam run", 40_000, 1, "Core", "Paid", ""),
-    ("Ground team", "Bilingual fixer / on-camera interpreter (FR↔EN)", 80_000, f"={DAYS}", "Core", "Paid", "Essential"),
+    ("Ground transport", "Fuel & tolls — cocoa village run", 80_000, 1, "Core", "Paid", ""),
+    ("Ground team", "Bilingual fixer / on-camera interpreter (FR↔EN)", 80_000, f"={DAYS}", "Core", "Paid", ""),
     ("Ground team", "Protocol & security officers (×2)", 50_000, f"=2*{DAYS}", "Core", "Paid", ""),
     ("Ground team", "Runner / production assistant", 25_000, f"={DAYS}", "Core", "Paid", ""),
-    ("Day 1 · The lagoon", "Attiéké entrepreneur — workshop honorarium", 300_000, 1, "Core", "Paid", "Women-led brand, to identify"),
-    ("Day 1 · The lagoon", "Lagoon beach location, set & access", 150_000, 1, "Core", "Paid", "Site to confirm"),
-    ("Day 1 · The lagoon", "Garba ingredients & tasting", 60_000, 1, "Core", "Paid", ""),
     ("Day 1 · Snack time", "Goûter ingredients & kit (~40 children)", 250_000, 1, "Core", "Sponsor", "With Fondation Olivia Yacé"),
     ("Day 1 · Snack time", "Burners, gas, aprons, hygiene", 150_000, 1, "Core", "Paid", ""),
-    ("Day 1 · Snack time", "Child-safeguarding officer + consent forms", 100_000, 1, "Core", "Paid", "Non-negotiable"),
-    ("Day 1 · Maquis night", "Reserved space + live band", 350_000, 1, "Core", "Sponsor", ""),
-    ("Day 1 · Maquis night", "Food & drinks (party + ~6 guests)", 15_000, f"={PAX}+6", "Core", "Sponsor", ""),
-    ("Day 1 · Maquis night", "Jiaan Wu — co-host fee [TBC]", 300_000, 1, "Core", "Paid / exposure swap", "Placeholder until quoted"),
-    ("Day 2 · Grand-Bassam", "Zeinab Bancé — foutou workshop fee", 500_000, 1, "Core", "Paid", "Placeholder until quoted"),
-    ("Day 2 · Grand-Bassam", "Lagoon-side garden location", 200_000, 1, "Core", "In-kind: venue", ""),
-    ("Day 2 · Grand-Bassam", "Ingredients, mortar, artisan crockery", 150_000, 1, "Core", "Paid", ""),
-    ("Day 2 · Grand-Bassam", "Heritage-quarter guide", 50_000, 1, "Core", "In-kind: Ministry of Culture", ""),
-    ("Day 3 · Cocoa & zaouli", "Maison Mandjou atelier (Ahoua Touré)", 400_000, 1, "Core", "In-kind / co-brand", ""),
-    ("Day 3 · Cocoa & zaouli", "Bean-to-bar demo — partner chocolatier", 300_000, 1, "Core", "In-kind / co-brand", "e.g. Le Chocolatier Ivoirien"),
-    ("Day 3 · Cocoa & zaouli", "Gouro zaouli troupe + musicians at KAVA", 600_000, 1, "Core", "In-kind: Ministry of Culture", ""),
-    ("Day 3 · Cocoa & zaouli", "Customary gifts & drinks — troupe", 100_000, 1, "Core", "Paid", ""),
-    ("Day 3 · Closing table", "Closing dinner (party + ~10 guests)", 50_000, f"={PAX}+10", "Core", "Sponsor", "Ministers, Olivia, chefs"),
-    ("Day 3 · Closing table", "Courtesy gifts (ministries, foundation)", 100_000, 1, "Core", "Paid", ""),
-    ("Production support", "Licensed drone operator + ANAC authorisation", 350_000, 2, "Core", "Paid", "Days 1 & 2"),
+    ("Day 1 · Snack time", "Child-safeguarding officer + consent forms", 100_000, 1, "Core", "Paid", ""),
+    ("Day 1 · Allocodrome", "Tables, food & drinks (party + ~6 guests)", 20_000, f"={PAX}+6", "Core", "Sponsor", ""),
+    ("Day 1 · Allocodrome", "Jiaan Wu — co-host fee [TBC]", 300_000, 1, "Core", "Paid / exposure swap", ""),
+    ("Day 2 · Record day", "Zeinab Bancé — appearance fee [TBC]", 500_000, 1, "Core", "Paid", ""),
+    ("Day 2 · Record day", "Speed duel set: mortars, timer, ingredients", 200_000, 1, "Core", "Paid", ""),
+    ("Day 2 · Record day", "Relay kitchen — 1,000 plates", 1_500, 1000, "Core", "Sponsor", "Food brand / FMCG"),
+    ("Day 2 · Record day", "Relay kitchen — venue, tent, stoves, Treichville", 600_000, 1, "Core", "In-kind: venue", ""),
+    ("Day 2 · Record day", "Servers & volunteers (×10)", 15_000, 10, "Core", "Paid", ""),
+    ("Day 3 · Cocoa & queens", "Cocoa village — community contribution & protocol", 300_000, 1, "Core", "Paid", ""),
+    ("Day 3 · Cocoa & queens", "Bean-to-bar workshop, Axel’s lab", 500_000, 1, "Core", "In-kind / co-brand", ""),
+    ("Day 3 · Cocoa & queens", "Maison Mandjou atelier", 400_000, 1, "Core", "In-kind / co-brand", ""),
+    ("Day 3 · Cocoa & queens", "Closing dinner (party + ~10 guests)", 50_000, f"={PAX}+10", "Core", "Sponsor", "Ministries, partners"),
+    ("Day 3 · Cocoa & queens", "Courtesy gifts", 100_000, 1, "Core", "Paid", ""),
+    ("Production support", "Licensed drone operator + ANAC authorisation", 350_000, 2, "Core", "Paid", "Days 2 & 3"),
     ("Production support", "Welcome kit — pagne, AToure merch", 25_000, f"={PAX}", "Core", "Paid", ""),
-    # Optional / upgrades
-    ("Upgrades", "CASOF × Abidjan masterclass (20–30 young cooks)", 300_000, 1, "Optional", "Sponsor", ""),
-    ("Upgrades", "Cocoa farm visit (half day)", 300_000, 1, "Optional", "In-kind: Conseil Café-Cacao", ""),
-    ("Upgrades", "Sunset pinasse on the Ébrié lagoon", 400_000, 1, "Optional", "Sponsor", ""),
-    ("Upgrades", "Local BTS photographer / videographer", 200_000, f"={DAYS}", "Optional", "Paid", "Sponsor & ministry assets"),
-    ("Upgrades", "Legacy seed gift — Fondation Olivia Yacé", 1_000_000, 1, "Optional", "Sponsor", "Girls' school fees / goûter"),
-    ("Travel (outside ground)", "Flights Accra → Abidjan", 200_000, f"={PAX}", "Travel", "In-kind: airline", "May be on tour budget already"),
-    ("Travel (outside ground)", "Flights Abidjan → Monrovia (Air Côte d'Ivoire)", 280_000, f"={PAX}", "Travel", "In-kind: Air Côte d'Ivoire", "Check days for 22 Oct"),
-    ("Travel (outside ground)", "E-visas for non-ECOWAS crew", 50_000, 2, "Travel", "Paid", "Ghanaian passports: none needed"),
+    ("Upgrades", "Sponsored term of goûter for the school", 1_000_000, 1, "Optional", "Sponsor", ""),
+    ("Upgrades", "Local BTS photographer / videographer", 200_000, f"={DAYS}", "Optional", "Paid", ""),
+    ("Travel (outside ground)", "Flights Accra → Abidjan", 200_000, f"={PAX}", "Travel", "In-kind: airline", ""),
+    ("Travel (outside ground)", "Flights Abidjan → Monrovia (Air Côte d'Ivoire)", 280_000, f"={PAX}", "Travel", "In-kind: Air Côte d'Ivoire", ""),
+    ("Travel (outside ground)", "E-visas for non-ECOWAS crew", 50_000, 2, "Travel", "Paid", ""),
 ]
 
 def qty_value(q, a):
@@ -104,7 +95,7 @@ ws_a.column_dimensions["A"].width = 36; ws_a.column_dimensions["B"].width = 12; 
 ws = wb.create_sheet("Budget")
 cols = ["Section", "Line item", "Unit cost (XOF)", "Qty", "Total (XOF)", "Total (USD)", "Tier", "Include? (Y/N)", "Funding route", "Note"]
 widths = [22, 58, 16, 8, 16, 12, 10, 14, 32, 44]
-ws["A1"] = "Chef Abbys × Côte d'Ivoire · 19–21 Oct 2026 · Ground budget v0.2 (pre-quote estimate)"
+ws["A1"] = "Chef Abbys × Côte d'Ivoire · 19–21 Oct 2026 · Ground budget v0.3 (pre-quote estimate)"
 ws["A1"].font = Font(name="Cormorant Garamond", size=16, bold=True)
 for i, (h, w) in enumerate(zip(cols, widths)):
     c = ws.cell(row=2, column=i + 1, value=h); c.font = hdr_font; c.fill = hdr_fill
