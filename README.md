@@ -15,7 +15,7 @@ AToure is delivering the experience and logistics for the **Côte d'Ivoire stop 
 
 - **v0.2 deck** (merged programme) is the current version, as a Slides artifact. The v0.1 Markdown/PDF is kept for reference.
 - **Draft v0.1.** Every partner, person and venue named is a *target*. Nothing has been approached or confirmed yet.
-- Budget figures are **estimates before supplier quotes**, for a party of 6. The AToure fee (15%) is a placeholder.
+- Budget figures are **estimates before supplier quotes**, for a party of 6. The AToure fee is set to 0% until it has been discussed with the client. Logistics-only total: 3,789,500 XOF (≈ $6,707).
 - Credential: use **TIME100 Creators 2025** (it is pinned on her Instagram). I found no Forbes listing.
 
 ## Rebuild

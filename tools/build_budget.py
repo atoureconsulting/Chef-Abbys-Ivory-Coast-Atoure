@@ -19,7 +19,7 @@ ASSUMPTIONS = [  # (label, value, note)
     ("XOF per USD", 565, "Check on the day"),
     ("XOF per EUR", 655.957, "Fixed peg"),
     ("Contingency", 0.10, "On ground costs"),
-    ("AToure curation & management fee", 0.15, "PLACEHOLDER — Baba to set"),
+    ("AToure curation & management fee", 0.0, "Not yet discussed with the client — left at 0"),
 ]
 A = {k: f"Assumptions!$B${i+3}" for i, (k, _, _) in enumerate(ASSUMPTIONS)}
 PAX, NIGHTS, DAYS, VDAYS = A["Tour party (people)"], A["Hotel nights"], A["Programme days"], A["Vehicle days"]
