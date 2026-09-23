@@ -13,6 +13,7 @@ OUT = Path(__file__).resolve().parent.parent / "03-budget" / "ground-budget.xlsx
 ASSUMPTIONS = [  # (label, value, note)
     ("Tour party (people)", 6, "Chef Abbys + manager + 2 camera + photo + assistant — CONFIRM"),
     ("Hotel nights", 3, "Nights of 19, 20, 21 Oct; depart 22 Oct to Monrovia"),
+    ("Hotel rooms", 4, "Twin rooms; Booking.com search 19–22 Oct, 4 rooms"),
     ("Programme days", 3, "19–21 Oct"),
     ("Vehicle days", 4, "19 Oct airport pick-up through 22 Oct airport drop"),
     ("XOF per USD", 565, "Check on the day"),
@@ -22,12 +23,13 @@ ASSUMPTIONS = [  # (label, value, note)
 ]
 A = {k: f"Assumptions!$B${i+3}" for i, (k, _, _) in enumerate(ASSUMPTIONS)}
 PAX, NIGHTS, DAYS, VDAYS = A["Tour party (people)"], A["Hotel nights"], A["Programme days"], A["Vehicle days"]
+ROOMS = A["Hotel rooms"]
 
 # v0.3 — deck itinerary: goûter + Allocodrome (Day 1), Zeinab speed duel + 1,000-plate relay (Day 2),
 # cocoa village + Axel's lab + Maison Mandjou + closing dinner (Day 3)
 LINES = [
-    ("Arrival & stay", "VIP airport welcome + fast-track (arrival & departure)", 200_000, 2, "Core", "Request: Ministry of Culture", ""),
-    ("Arrival & stay", "Hotel 4–5★, single rooms", 150_000, f"={PAX}*{NIGHTS}", "Core", "In-kind: hotel partner", "Rate to quote"),
+    ("Arrival & stay", "VIP airport welcome + fast-track (arrival & departure)", 56_500, 2, "Core", "Request: Ministry of Culture", ""),
+    ("Arrival & stay", "Sofitel Abidjan Hôtel Ivoire, twin rooms", 178_500, f"={ROOMS}*{NIGHTS}", "Core", "Request: Ministry of Tourism / hotel sponsor", "Booking.com £2,800 incl. tax for 4 rooms × 3 nights, at £1 ≈ 765 XOF"),
     ("Arrival & stay", "Per diems — meals outside programme", 25_000, f"={PAX}*{NIGHTS}", "Optional", "Paid", "Not in logistics budget"),
     ("Arrival & stay", "Local SIM + data", 15_000, f"={PAX}", "Core", "In-kind: telco", ""),
     ("Ground transport", "Talent SUV with driver, fuel incl.", 100_000, f"={VDAYS}", "Core", "Request: Ghana High Commission / ministries", ""),
