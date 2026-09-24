@@ -28,3 +28,25 @@
 
 ### To cost in v0.2
 Ingredients and kit for about 40 children, burners and gas, aprons, a child-safeguarding officer, consent forms, and printed materials.
+
+## Attiéké in Dabou: from root to plate (added 24 Sep 2026)
+
+**Idea.** On her last trip Abby ate attiéké. This time she makes it. She works the whole chain with the lagoon women in Dabou (Attiéké des Lagunes, the protected-origin label), learns their *magnan* (the starter) and compares it with gari, Ghana's cassava staple. That evening she eats attiéké at the Allocodrome with Jiaan. It sits on Day 1, before the cocoa day with Axel.
+
+**Why it matters.** In December 2024 (Asunción session) UNESCO added "Skills related to Attiéké production in Côte d'Ivoire" to the Representative List of the Intangible Cultural Heritage of Humanity. The lagoon peoples make it: Ebrié, Adjoukrou, Alladian, Avikam, Abidji, Ahizi and Attié. The men grow, harvest and transport the cassava. The women prepare, cook and sell the attiéké. The skills pass down orally and by watching, from mother to daughter.
+
+**How it is made (3 to 5 days)**
+1. Harvest the cassava.
+2. Make the starter: cooked or braised cassava, fermented for 1 to 3 days. Each group has its own name for it: *magnan* (Ebrié), *lidjrou* (Adjoukrou), *bêdêfon* (Alladian).
+3. Peel, wash and grind the roots with 7–12% starter, about 1% red palm oil and a little water.
+4. Ferment the paste in sacks for 12–15 hours, then press it dry. Fermentation removes most of the cyanide in bitter cassava.
+5. Sift, roll into grains by hand, then sun-dry and sift again.
+6. Steam, and serve with grilled fish.
+
+**Filming.** As on the cocoa day, the women prepare a batch at each stage, so the whole chain can be filmed in one morning. Dabou is about an hour west of Abidjan.
+
+**Sources**
+- UNESCO ICH element 02086: https://ich.unesco.org/en/RL/skills-related-to-attieke-production-in-cote-d-ivoire-02086
+- CIRAD RTBfoods, attiéké product sheet: https://rtbfoods.cirad.fr/fr/les-produits/manioc/attieke/fiche-d-identite-produit
+- Wikipedia, "Acheke": https://en.wikipedia.org/wiki/Acheke
+- The Africa Report, on the 2024 inscriptions: https://www.theafricareport.com/374173/henna-attieke-intore-african-living-treasures-recognised-by-unesco/
